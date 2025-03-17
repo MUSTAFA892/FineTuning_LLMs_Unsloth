@@ -1,0 +1,12 @@
+huggingface_hub ipython "unsloth[colab] @ git+https://github.com/unslothai/unsloth.git" "unsloth[conda] @ git+https://github.com/unslothai/unsloth.git"
+#export HF_TOKEN=xxxxxxxxxxxxx
+
+"conda create -n unsloth python=3.10 -y"
+"conda activate unsloth"
+"conda install pytorch cudatoolkit torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia"
+
+"conda install xformers -c xformers"
+
+"pip install bitsandbytes"
+
+"pip install "unsloth[conda] @ git+https://github.com/unslothai/unsloth.git""
